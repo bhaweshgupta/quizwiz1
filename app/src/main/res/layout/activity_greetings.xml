@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.onebb35.www.quizwiz.greetings"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/real123"
+        android:alpha="0.3"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="HELLO"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="#ff1919"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:onClick="upcoming"
+        android:text="Upcoming"
+        style="@style/button_text"
+        android:background="@drawable/buttonshape"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/button8"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/button_text"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="serif"
+        android:onClick="lineup"
+        android:text="Line Up"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:fontFamily="serif"
+        android:onClick="quiz"
+        android:text="Quiz It Up"
+        style="@style/button_text"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:fontFamily="serif"
+        android:onClick="news"
+        android:text="News"
+        style="@style/button_text"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@+id/button9"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:fontFamily="serif"
+        android:onClick="Video"
+        android:text="Videos"
+        style="@style/button_text"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@+id/button10"
+        android:layout_centerHorizontal="true" />
+
+
+
+</android.widget.RelativeLayout>

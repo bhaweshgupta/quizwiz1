@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.onebb35.www.quizwiz.VID">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="#adccff">
+
+        <TextView
+            android:id="@+id/serve1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="22dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:text="#Watch the players face each other in the Audi e-tron race!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:autoLink="web"/>
+
+        <TextView
+            android:id="@+id/serve2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="#Beckham Best goals at Real Madrid"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_below="@+id/serve1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/serve3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/serve2"
+            android:layout_marginTop="18dp"
+            android:text="#Real Madrid Top 50 Goals Ever"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/serve4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:text="#10 Players Who Real Madrid RUINED!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_below="@+id/serve3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/serve5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/serve4"
+            android:layout_marginTop="12dp"
+            android:text="#Players Who Went From Poverty to Power XI!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/serve6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/serve5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="#Gareth Bale's incredible goal against Barcelona | Copa del Rey Final 2014"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/serve7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/serve6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="#Cristiano Ronaldo's stunning brace against Osasuna in 2014"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/serve8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/serve7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="------REAL MADRID HISTORY------"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</android.widget.RelativeLayout>
